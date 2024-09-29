@@ -51,7 +51,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const output = `#### Preview Environment Outputs 🖌
+            const output = `#### Preview Environment Outputs
             \`\`\`
             ${process.env.OUTPUT}
             \`\`\`
